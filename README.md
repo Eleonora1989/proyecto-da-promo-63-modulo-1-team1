@@ -19,8 +19,7 @@ Este enfoque permite que cualquier usuario disfrute del juego sin necesidad de c
    - Se acaban los 6 intentos (derrota).
 
 **Reglas adicionales:**
-- Se aceptan letras con tilde.
-- No importa si el usuario escribe mayúsculas; el programa las convierte automáticamente a minúsculas.
+- No importa si el usuario escribe mayúsculas o vocales con tilde; el programa las convierte automáticamente a minúsculas y simples respectivamente.
 - Las letras repetidas se notifican, pero no restan intentos.
 - La palabra se muestra con guiones bajos para representar las letras no descubiertas.
 - **Nota:** en Jupyter Notebook, después de 3 intentos puede aparecer el mensaje "Output is truncated..."; en ese caso, ajustar la celda a "scrollable" para seguir visualizando la partida completa.
