@@ -46,7 +46,6 @@ Esta estructura modular permite mantener y ampliar fácilmente el juego, así co
 
 ## Posibles mejoras futuras
 - Diferentes niveles de dificultad.
-- Permitir palabras con acentos y caracteres especiales.
 - Implementar interfaz gráfica.
 - Guardar puntuaciones y estadísticas de usuario.
 - Incluir un menú con varios juegos para convertirlo en mini plataforma de entretenimiento.
