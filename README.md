@@ -50,6 +50,6 @@ Esta estructura modular permite mantener y ampliar fácilmente el juego, así co
 - Guardar puntuaciones y estadísticas de usuario.
 - Incluir un menú con varios juegos para convertirlo en mini plataforma de entretenimiento.
 
-- ## Equipo de desarrollo
-Proyecto desarrollado por un equipo de 6 desarrolladoras, una de ellas desempeñando adicionalmente el papel de Scrum Master para aplicar correctamente la llegada al sprint y la metodología ágil.
-Para la creación de este proyecto, se aplicaron buenas prácticas básicas de Python y metodología ágil para la entrega de un producto funcional y fácil de entender.
+## Equipo de desarrollo
+Proyecto desarrollado por un equipo de 6 developers, una de ellas desempeñando adicionalmente el papel de Scrum Master para aplicar correctamente la llegada al sprint y la metodología ágil.
+Para la creación de este proyecto y la entrega de un producto funcional y fácil de entender se aplicaron buenas prácticas básicas de Python y metodología ágil.
