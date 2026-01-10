@@ -24,7 +24,7 @@ Este enfoque permite que cualquier usuario disfrute del juego sin necesidad de c
 - La palabra se muestra con guiones bajos para representar las letras no descubiertas.
 - **Nota:** en Jupyter Notebook, después de 3 intentos puede aparecer el mensaje "Output is truncated..."; en ese caso, ajustar la celda a "scrollable" para seguir visualizando la partida completa.
 
-- ## Detalles técnicos y funciones principales
+## Detalles técnicos y funciones principales
 - **`juego_ahorcado()`**: función principal que controla todo el juego.
   - Inicializa la palabra secreta de forma aleatoria.
   - Configura variables: `intentos` (6 por partida), `letras_adivinadas`, `palabra_mostrada`.
@@ -50,6 +50,6 @@ Esta estructura modular permite mantener y ampliar fácilmente el juego, así co
 - Guardar puntuaciones y estadísticas de usuario.
 - Incluir un menú con varios juegos para convertirlo en mini plataforma de entretenimiento.
 
-- ## Equipo de desarrollo
-Proyecto desarrollado por un equipo de 6 desarrolladoras, una de ellas desempeñando adicionalmente el papel de Scrum Master para aplicar correctamente la llegada al sprint y la metodología ágil.
-Para la creación de este proyecto, se aplicaron buenas prácticas básicas de Python y metodología ágil para la entrega de un producto funcional y fácil de entender.
+## Equipo de desarrollo
+Proyecto desarrollado por un equipo de 6 developers, una de ellas desempeñando adicionalmente el papel de Scrum Master para aplicar correctamente la llegada al sprint y la metodología ágil.
+Para la creación de este proyecto y la entrega de un producto funcional y fácil de entender se aplicaron buenas prácticas básicas de Python y metodología ágil.
