@@ -62,4 +62,60 @@ Esta estructura modular permite mantener y ampliar fácilmente el juego, así co
 ### 1.4. Posibles mejoras futuras
 - Implementar interfaz gráfica y añadir más elementos gráficos atractivos por el usuario como el uso de emoticonos.
 
+
+
 # 2. El Juego del Trivial (`juego-ahorcado-pro.ipynb`)
+
+#### 2.1. Descripción general del juego
+El **Trivial** es un juego de preguntas de selección múltiple sobre cultura general. Esta versión destaca por su dinamismo y por incluir un sistema de puntuación que castiga el error, haciendo la experiencia más competitiva.
+
+**Características principales:**
+- **Sistema de Desafío:** Mecánica de victoria por acumulación de aciertos y derrota por exceso de fallos.
+- **Aleatoriedad:** Las preguntas se desordenan en cada partida gracias a la librería `random`, garantizando que cada experiencia sea única.
+- **Interfaz Visual:** Uso de iconos (🎲, ✅, ❌, 🏆, 💀) para una respuesta visual clara y motivadora.
+- **Contenido:** Base de datos con 30 preguntas que cubren áreas como Geografía, Ciencia, Arte e Historia.
+
+#### 2.2. Cómo jugar
+1. Abrir el notebook `trivial.ipynb` y ejecutar la celda de la función `jugar_trivial()`.
+2. Leer la pregunta y las cuatro opciones (**A, B, C o D**) que aparecen en pantalla.
+3. Escribir la letra correspondiente y pulsar "Enter".
+4. El juego continúa hasta alcanzar uno de los límites de estado o terminar las preguntas.
+
+**Reglas adicionales:**
+- **Condición de Victoria:** Debes lograr **5 aciertos** para ganar la partida.
+- **Condición de Derrota:** Si cometes **3 fallos**, el juego termina inmediatamente (Game Over).
+- **Control manual:** Puedes detener el juego en cualquier momento escribiendo la palabra **"STOP"**.
+- **Flexibilidad:** El programa procesa automáticamente la entrada para aceptar tanto mayúsculas como minúsculas.
+
+#### 2.3. Detalles técnicos y funciones principales
+- **`jugar_trivial()`**: Función maestra que gestiona el bucle de juego.
+  - **Control de flujo:** Utiliza un bucle `while` que evalúa simultáneamente tres condiciones: aciertos, fallos y disponibilidad de preguntas.
+  - **Gestión de datos:** Emplea `random.shuffle()` para desordenar la lista de diccionarios que contiene la batería de preguntas.
+- **Estructura de Datos:** Uso de una **lista de diccionarios**. Cada diccionario almacena la `pregunta`, la lista de `opciones` y la `respuesta` correcta.
+- **Variables de estado:**
+  - `acertadas`: Contador de respuestas correctas.
+  - `fallos`: Contador de respuestas erróneas.
+  - `i`: Índice de posición para recorrer la lista de preguntas.
+
+#### 2.4. Posibles mejoras futuras
+- **Mayor batería de preguntas:** Ampliar el repositorio de preguntas para evitar repeticiones.
+- **Temáticas seleccionables:** Opción de elegir la temática al inicio: Geografía, Capitales, Historia, Deporte, etc.
+- **Temporizador:** Añadir un límite de tiempo por respuesta para aumentar la dificultad.
+
+
+
+# 3. Piedra, Papel o Tijera (`piedra_papel_tijera.ipynb`)
+
+
+# 🛠️ Instrucciones de ejecución
+Para asegurar una correcta visualización de los juegos por parte del cliente:
+1. Abrir el archivo `.ipynb` correspondiente en un entorno compatible (Jupyter, VS Code o Google Colab).
+2. Ejecutar la celda de código principal.
+3. Interactuar a través de la consola que aparecerá bajo la celda.
+
+
+# 👥 Equipo Wobers
+Proyecto desarrollado por un equipo de 6 programadoras junior comprometidas con la calidad del código y la metodología ágil:
+- **Scrum Master:** Coordinación de sprints y flujo de trabajo.
+- **Documentarista:** Responsable de la claridad y estructura de la presente documentación técnica.
+- **Desarrolladoras:** Implementación de la lógica y validación de los juegos
