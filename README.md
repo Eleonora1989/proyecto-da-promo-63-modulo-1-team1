@@ -1,4 +1,19 @@
-## Descripción general
+# Proyecto Mini Classic Games: EducaPlay
+
+**Mini Classic Games** es una colección de tres juegos clásicos desarrollados en formato **Jupyter Notebook (.ipynb)** por el equipo **Wobers**. Este proyecto busca ofrecer una experiencia de entretenimiento sencilla, dinámica e interactiva para usuarios a partir de 14 años.
+
+## 🚀 Sobre el Proyecto
+- **Formato:** Entrega de 3 cuadernos interactivos independientes para facilitar la ejecución y visualización del código.
+- **Metodología:** Desarrollo bajo el marco de trabajo **Scrum** por el equipo **Wobers** (6 desarrolladoras), asegurando un producto funcional, testeado y documentado.
+- **Tecnología:** Python 3, optimizado para su ejecución en entornos de desarrollo interactivos como Jupyter Notebook y VS Code..
+
+---
+
+## 🎮 Catálogo de Juegos
+
+# 1. El Juego del Ahorcado (`juego-ahorcado-pro.ipynb`)
+
+### 1.1. Descripción general
 El **Juego del Ahorcado** es un clásico juego de adivinanza de palabras. El jugador debe descubrir la palabra secreta letra por letra antes de quedarse sin intentos.
 
 Características principales:
@@ -10,7 +25,7 @@ Características principales:
 
 Este enfoque permite que cualquier usuario disfrute del juego sin necesidad de conocimientos de programación.
 
-## Cómo jugar
+### 1.2. Cómo jugar
 1. Ejecutar el archivo Python que contiene el juego.
 2. Introducir **una letra** por turno.
 3. El juego indicará si la letra está en la palabra y actualizará la palabra mostrada.
@@ -24,7 +39,7 @@ Este enfoque permite que cualquier usuario disfrute del juego sin necesidad de c
 - La palabra se muestra con guiones bajos para representar las letras no descubiertas.
 - **Nota:** en Jupyter Notebook, después de 3 intentos puede aparecer el mensaje "Output is truncated..."; en ese caso, ajustar la celda a "scrollable" para seguir visualizando la partida completa.
 
-## Detalles técnicos y funciones principales
+### 1.3. Detalles técnicos y funciones principales
 - **`juego_ahorcado()`**: función principal que controla todo el juego.
   - Inicializa la palabra secreta de forma aleatoria.
   - Configura variables: `intentos` (6 por partida), `letras_adivinadas`, `palabra_mostrada`.
@@ -44,12 +59,7 @@ Este enfoque permite que cualquier usuario disfrute del juego sin necesidad de c
 
 Esta estructura modular permite mantener y ampliar fácilmente el juego, así como integrarlo en un proyecto con varios juegos.
 
-## Posibles mejoras futuras
-- Diferentes niveles de dificultad.
-- Implementar interfaz gráfica.
-- Guardar puntuaciones y estadísticas de usuario.
-- Incluir un menú con varios juegos para convertirlo en mini plataforma de entretenimiento.
+### 1.4. Posibles mejoras futuras
+- Implementar interfaz gráfica y añadir más elementos gráficos atractivos por el usuario como el uso de emoticonos.
 
-## Equipo de desarrollo
-Proyecto desarrollado por un equipo de 6 developers, una de ellas desempeñando adicionalmente el papel de Scrum Master para aplicar correctamente la llegada al sprint y la metodología ágil.
-Para la creación de este proyecto y la entrega de un producto funcional y fácil de entender se aplicaron buenas prácticas básicas de Python y metodología ágil.
+# 2. El Juego del Trivial (`juego-ahorcado-pro.ipynb`)
