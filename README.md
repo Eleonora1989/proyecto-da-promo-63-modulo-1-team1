@@ -11,7 +11,7 @@
 
 ## 🎮 Catálogo de Juegos
 
-## 1. El Juego del Ahorcado (`juego-ahorcado-pro.ipynb`)
+## 1. El Juego del Ahorcado (`Juego Ahorcado.ipynb`)
 
 ### 1.1. Descripción general
 El **Juego del Ahorcado** es un clásico juego de adivinanza de palabras. El jugador debe descubrir la palabra secreta letra por letra antes de quedarse sin intentos.
@@ -49,7 +49,7 @@ El **Juego del Ahorcado** es un clásico juego de adivinanza de palabras. El jug
 
 ---
 
-## 2. El Juego del Trivial (`trivial.ipynb`)
+## 2. El Juego del Trivial (`Juego Preguntas.ipynb`)
 
 ### 2.1. Descripción general del juego
 El **Trivial** es un juego de preguntas de selección múltiple sobre cultura general. Esta versión destaca por su dinamismo y por incluir un sistema de puntuación que castiga el error, haciendo la experiencia más competitiva.
@@ -85,7 +85,7 @@ El **Trivial** es un juego de preguntas de selección múltiple sobre cultura ge
 
 ---
 
-## 3. Piedra, Papel o Tijera (`piedra_papel_tijera.ipynb`)
+## 3. Piedra, Papel o Tijera (`Piedra Papel Tijera Juego.ipynb`)
 
 ### 3.1. Descripción general del juego
 **Piedra, papel o tijera** es un juego de enfrentamiento entre dos jugadores. La lógica de victoria sigue el patrón clásico: el "papel" gana a la "piedra", la "piedra" gana a la "tijera" y la "tijera" gana al "papel".
